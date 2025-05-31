@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="gamePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#keyPressed" prefHeight="640.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.flappybirdjavafx.BirdController">
+   <children>
+      <ImageView fitHeight="640.0" fitWidth="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@background.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bird" fitHeight="28.0" fitWidth="38.0" layoutX="40.0" layoutY="307.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bird.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="scoreLabel" alignment="TOP_LEFT" prefHeight="40.0" prefWidth="360.0" text="Score: 0">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
