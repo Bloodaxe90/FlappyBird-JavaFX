@@ -1,38 +1,38 @@
-# IntelliJ IDEA
-.idea/
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
 *.iml
 *.ipr
-*.iws
-out/
 
-# Maven
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-# .mvn/wrapper/maven-wrapper.jar  # Some prefer to commit this, others fetch it.
-                                # Since your template includes it, it's fine to commit .mvn folder.
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# Mac
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
 .DS_Store
-
-# Log files
-*.log
-logs/
-
-# Compiled class files (if any somehow escape target/)
-*.class
-
-# Package Files #
-# --------------- #
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
