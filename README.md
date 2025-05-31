@@ -6,11 +6,6 @@
 After learning Java, I decided I wanted to learn JavaFX to help me build nicer-looking UIs, as I did not like using Swing. This is the first project I built after learning JavaFX and is a direct evolution of https://github.com/Bloodaxe90/Flappy-Bird.  
 </p>
 
-<h2>Dependencies</h2>
-    <li>
-        <strong>Apache Maven</strong>: This project uses Maven to manage dependencies and build.
-    </li>
-
 <h2>Usage:</h2>
 <p>
 Run the main method in the Application class
